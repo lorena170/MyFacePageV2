@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman', Times, serif; /* definido font new roman */
+    line-height: 1.6; /* espaço entre linhas */
+    margin: 0; /* remover margem padrão */
+    padding: 0; /* remover o padding padrão */
+    background-color: #e6f2ff; /* definir cor de fundo */
+    padding-bottom: 100px;
+}
+header {
+    background-color: #8e0cab; /* Define uma cor de fundo azul escuro para o cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho como branco */
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    padding: 1rem; /* Adiciona espaço interno ao cabeçalho */
+}
+
+nav {
+    background-color: #b521d6; /* Define uma cor de fundo azul para a navegação */
+    color: #fff; /* Define a cor do texto da navegação como branco */
+    padding: 0.5rem; /* Adiciona espaço interno à navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    margin: 0 10px; /* Adiciona margem horizontal entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+.container {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    padding: 20px; /* Adiciona espaço interno ao container */
+}
+
+.coluna {
+    background-color: #fff; /* Define a cor de fundo das colunas como branco */
+    margin: 10px; /* Adiciona margem às colunas */
+    padding: 20px; /* Adiciona espaço interno às colunas */
+    border-radius: 5px; /* Arredonda os cantos das colunas */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra sutil */
+}
+
+section {
+    background-color: #fff; /* Define a cor de fundo das seções como branco */
+    margin: 20px; /* Adiciona margem às seções */
+    padding: 20px; /* Adiciona espaço interno às seções */
+    border-radius: 5px; /* Arredonda os cantos das seções */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra sutil */
+}
+footer {
+    background-color:#8e0cab ; /* Define uma cor de fundo azul escuro para o rodapé */
+    color: #fff; /* Define a cor do texto do rodapé como branco */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 1rem; /* Adiciona espaço interno ao rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0; /* Alinha o rodapé à parte inferior */
+    width: 100%; /* Faz o rodapé ocupar toda a largura da tela */
+}
