@@ -1,7 +1,8 @@
 O código da página web em HTML.
 começo  a declarar o tipo de documento e, em seguida, coloco o elemento <html> declaro para português do Brasil.
 
-No <head>, defino a codificação para UTF-8, a responsividade da página e o título "mayfacepag 2.0". Também coloco um link para um arquivo CSS para estiliza a página.
+No <head>, defino a codificação para UTF-8, a responsividade da página e o título "mayfacepag 2.0".
+Também coloco um link para um arquivo CSS para estiliza a página.
 
 O <body> cloco o conteúdo visível. O <header> tem o título principal "Myfacepag 2".
 
