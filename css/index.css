@@ -55,6 +55,11 @@ section {
     border-radius: 5px; /* Arredonda os cantos das seções */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra sutil */
 }
+img {
+    max-width: 15%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 5px; /* Arredonda os cantos das imagens */
+}
 footer {
     background-color:#8e0cab ; /* Define uma cor de fundo azul escuro para o rodapé */
     color: #fff; /* Define a cor do texto do rodapé como branco */
